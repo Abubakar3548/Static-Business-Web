@@ -134,6 +134,8 @@ button{
 .Annual span{
   font-size: 20px;
   font-weight: bolder;
+  position: relative;
+  bottom: 10px;
 }
 .Annual p{
   font-size: 12px;
@@ -142,6 +144,8 @@ button{
 .Years span{
   font-size: larger;
   font-weight: bold;
+  position: relative;
+  bottom: 10px;
 }
 .Years p{
   font-size: 12px;
