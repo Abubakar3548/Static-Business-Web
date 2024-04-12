@@ -1,0 +1,149 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(to right, #4917fd, #063970);
+  color: rgb(243, 234, 234);
+  width: 100%;
+}
+
+.big-container{
+  background: linear-gradient(to right, #5538f8, #0b2e57 );
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px 20px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo{
+  padding-left: 25px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 70px;
+
+}
+.Logo i{
+  color: aqua;
+}
+.Logo span{
+  font-size: 30px;
+}
+.navbar{
+  font-size: 10px;
+  padding: 20px;
+}
+.navbar i{
+  align-items: baseline;
+  padding-left: 7px;
+}
+button{
+  background-color: #f84141;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 10px;
+  margin-left: 50px;
+  padding: 5px 12px 5px 12px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+.container-cont p{
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  padding-left: 30px;
+  position: relative;
+  left: 60px;
+}
+
+.container-cont h5{
+  font-size: 12px;
+  padding: 15px 0px 20px 40px ;
+  position: relative;
+  left: 50px;
+
+}
+
+.container-cont button{
+  position: relative;
+  left: 45px;
+  border-radius: 20px;
+  padding: 8px 20px 8px 20px;
+}
+.hero-section{
+  justify-content: space-between;
+  display: flex;
+  padding: 0px 20px 0px 70px;
+  align-items: baseline;
+  justify-content: center;
+  column-gap: 20px;
+}
+.Facebook p{
+  padding-top: 3px;
+}
+.Facebook i{
+  background-color: white;
+  color: #4917fd;
+  width: 23px;
+  height: 20px;
+  padding: 3px 0px 0px 5px;
+}
+
+.Facebook{
+  font-size: 12px;
+}
+.Google i{
+  background-color: white;
+  color: #5538f8;
+  width: 25px;
+  height: 23px;
+  padding: 3px 0px 0px 5px;
+}
+.Google span{
+  font-size: 12px; 
+}
+.Agency i{
+  background-color: bl;
+  border: 1px solid white;
+  width: 30px;
+  height: 28px;
+  padding: 5px 0px 0px 5px;
+  border-radius: 15px;
+}
+.Agency span{
+  font-size: 12px;
+}
+
+
+.Company h6{
+  padding-top: 10px;
+
+}
+.Annual span{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.Annual p{
+  font-size: 12px;
+  padding-top: 5px;
+}
+.Years span{
+  font-size: larger;
+  font-weight: bold;
+}
+.Years p{
+  font-size: 12px;
+  padding-top: 5px;
+}
